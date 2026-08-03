@@ -1,7 +1,7 @@
 {
   "name": "R",
   "scopeName": "source.r",
-  "type": "modern-tree-sitter",
+  "type": "tree-sitter",
   "parser": "tree-sitter-r",
   "injectionRegex": "^(r)$",
   "fileTypes": ["r", "R", "Rprofile", "Rhistory"],
