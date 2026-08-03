@@ -1,0 +1,22 @@
+{
+  "name": "R",
+  "scopeName": "source.r",
+  "type": "modern-tree-sitter",
+  "parser": "tree-sitter-r",
+  "injectionRegex": "^(r)$",
+  "fileTypes": ["r", "R", "Rprofile", "Rhistory"],
+  "comments": {
+    "start": "# "
+  },
+  "treeSitter": {
+    // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
+    // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
+    // reporting `diverged` or a nonzero `behind` means it is not.
+    "parserSource": "github:r-lib/tree-sitter-r#v1.3.0",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "grammar": "tree-sitter-r/tree-sitter-r.wasm",
+    "highlightsQuery": "tree-sitter-r/highlights.scm",
+    "localsQuery": "tree-sitter-r/locals.scm",
+    "tagsQuery": "tree-sitter-r/tags.scm"
+  }
+}
