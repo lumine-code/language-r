@@ -10,6 +10,10 @@ R language support.
 - **Symbol navigation**: function definitions and assignments.
 - **Locals**: resolves parameters and local bindings.
 
+## Installation
+
+To install `language-r` search for _language-r_ in the Install pane of the Lumine settings or run `lumine --install lumine-code/language-r`.
+
 ## Services
 
 - **hyperlink.injection** (`^1.0.0`): consumed to highlight URLs in these files as clickable links.
