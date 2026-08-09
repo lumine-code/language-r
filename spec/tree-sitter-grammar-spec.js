@@ -9,7 +9,7 @@ const path = require("path");
 
 describe("R Tree-sitter grammar", () => {
   beforeEach(async () => {
-    await atom.packages.activatePackage("language-r");
+    await lumine.packages.activatePackage("language-r");
   });
 
   it("tokenizes the fixture", async () => {
