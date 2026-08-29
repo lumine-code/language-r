@@ -5,6 +5,8 @@
 f <- function(x, y) {
 #    ^ storage.type.function
 #            ^ punctuation.definition.arguments.begin.bracket.round
+#             ^ variable.parameter
+#                ^ variable.parameter
 #              ^ punctuation.separator.comma
 #                   ^ punctuation.definition.block.begin.bracket.curly
 
