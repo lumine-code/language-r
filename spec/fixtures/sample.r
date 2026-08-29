@@ -17,5 +17,8 @@ f <- function(x, y) {
 }
 # <- punctuation.definition.block.end.bracket.curly
 
+f(x = 1)
+# ^ variable.parameter
+
 # a comment
 # <- comment

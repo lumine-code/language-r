@@ -78,7 +78,10 @@
 ; Parameters
 
 (parameters (parameter name: (identifier) @variable.parameter.r))
-(arguments (argument name: (identifier) @variable.parameter.r))
+(argument
+    name: (identifier) @variable.parameter.r
+    (#is? test.typeAt "parent.parent arguments")
+)
 
 ; Namespace
 
