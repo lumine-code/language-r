@@ -3,7 +3,7 @@
   "scopeName": "source.r",
   "type": "tree-sitter",
   "parser": "tree-sitter-r",
-  "injectionRegex": "^(r)$",
+  "injectionNames": ["r"],
   "fileTypes": ["r", "R", "Rprofile", "Rhistory"],
   "comments": {
     "start": "# "
@@ -14,9 +14,9 @@
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:r-lib/tree-sitter-r#v1.3.0",
     "wasmBuildTool": "tree-sitter-cli#v0.26.13",
-    "grammar": "tree-sitter-r/tree-sitter-r.wasm",
-    "highlightsQuery": "tree-sitter-r/highlights.scm",
-    "localsQuery": "tree-sitter-r/locals.scm",
-    "tagsQuery": "tree-sitter-r/tags.scm"
+    "grammar": "r.wasm",
+    "highlightsQuery": "r-highlights.scm",
+    "localsQuery": "r-locals.scm",
+    "tagsQuery": "r-tags.scm"
   }
 }
