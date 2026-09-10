@@ -7,7 +7,7 @@
 (complex) @constant.numeric.r
 
 (string) @string.quoted.double.r
-(string (string_content (escape_sequence) @constant.character.escape.r))
+(escape_sequence) @constant.character.escape.r
 
 ; Comments
 
@@ -79,11 +79,9 @@
 
 (parameter
     name: (identifier) @variable.parameter.r
-    (#is? test.typeAt "parent.parent parameters")
 )
 (argument
     name: (identifier) @variable.parameter.r
-    (#is? test.typeAt "parent.parent arguments")
 )
 
 ; Namespace
