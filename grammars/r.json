@@ -3,7 +3,7 @@
   "scopeName": "source.r",
   "type": "tree-sitter",
   "parser": "tree-sitter-r",
-  "injectionNames": ["r"],
+  "injectionNames": ["r", "rscript"],
   "fileTypes": ["r", "R", "Rprofile", "Rhistory"],
   "comments": {
     "start": "# "
