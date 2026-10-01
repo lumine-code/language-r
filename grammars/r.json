@@ -17,6 +17,7 @@
     "grammar": "r.wasm",
     "highlightsQuery": "r-highlights.scm",
     "localsQuery": "r-locals.scm",
-    "tagsQuery": "r-tags.scm"
+    "tagsQuery": "r-tags.scm",
+    "injectionsQuery": "r-injections.scm"
   }
 }
