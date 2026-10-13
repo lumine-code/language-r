@@ -1,0 +1,16 @@
+{
+  "title": "language-r",
+  "description": "R syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "9de93334b604ef0142141b2e463b689c8af5fd27",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "R syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 362
+    }
+  ]
+}

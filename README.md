@@ -10,6 +10,8 @@ R language support.
 - **Symbol navigation**: function definitions and assignments.
 - **Locals**: resolves parameters and local bindings.
 
+![R syntax highlighting at the default editor font size.](.github/demo.png)
+
 ## Installation
 
 To install `language-r` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-r`.
