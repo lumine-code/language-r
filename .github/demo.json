@@ -1,16 +1,61 @@
 {
   "title": "language-r",
-  "description": "R syntax highlighting in the editor.",
-  "recordedOn": "2026-10-13",
-  "sourceRevision": "9de93334b604ef0142141b2e463b689c8af5fd27",
+  "description": "R syntax highlighting at the default editor font size.",
+  "recordedOn": "2026-10-14",
+  "sourceRevision": "037b541f3e74d4e0c08b787928dac48c6a1c41bb",
+  "themeSourceRevision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
   "mode": "normal",
   "fontSettings": "default",
+  "scenario": "demo.js",
+  "recipeHash": "f53bd5f89d11a19d3f98a3d7a7ae770c90bfd6277ea99be15abb7f53dc919b8e",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "44.7.0",
+    "chrome": "152.0.7977.130",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 362 },
+  "cornerRadius": 10,
+  "sources": {
+    "editor": {
+      "revision": "0362a9fac7d6e153a768c0381800d6f3eb06647a",
+      "dirty": true,
+      "workingTreeHash": "1d75658a8b7d55a69c806a3786c562863bb9d5c71cbf96b3084c6a78c0d648b4"
+    },
+    "package": {
+      "revision": "037b541f3e74d4e0c08b787928dac48c6a1c41bb",
+      "dirty": true,
+      "workingTreeHash": "044aa439c9575ef2424d07b471822dc277083243631385ddd1e6ae5392a0a376"
+    },
+    "language-r": {
+      "revision": "037b541f3e74d4e0c08b787928dac48c6a1c41bb",
+      "dirty": true,
+      "workingTreeHash": "044aa439c9575ef2424d07b471822dc277083243631385ddd1e6ae5392a0a376"
+    },
+    "one-theme": {
+      "revision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
+      "dirty": true,
+      "workingTreeHash": "50ec2f83a6347dd8113870992ec4eb2be4014f3d9e12213c2f51b543f1eca793"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "example.r",
+      "sha256": "ee3d48f9a2a513c003f44374250a6bba83a6bd008121aff28eeb10b1f46d8236"
+    }
+  ],
   "images": [
     {
       "file": "demo.png",
       "label": "R syntax highlighting at the default editor font size.",
       "width": 1100,
-      "height": 362
+      "height": 362,
+      "sha256": "887441255e5e797f254fca33519c9ad7090419be3acf769c4bf21441bf96a3a6"
     }
   ]
 }
