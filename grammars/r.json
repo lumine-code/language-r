@@ -18,6 +18,7 @@
     "highlightsQuery": "r-highlights.scm",
     "localsQuery": "r-locals.scm",
     "tagsQuery": "r-tags.scm",
-    "injectionsQuery": "r-injections.scm"
+    "injectionsQuery": "r-injections.scm",
+    "indentsQuery": "r-indents.scm"
   }
 }
