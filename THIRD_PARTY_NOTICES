@@ -2,6 +2,9 @@
 Source: https://github.com/r-lib/tree-sitter-r
 Revision: v1.3.0
 
+Parser source: github:r-lib/tree-sitter-r#v1.3.0
+Resolved commit: 346d3707b8c9301f1051e8f6e32666e67529f7d2
+
 Original file: LICENSE
 
 MIT License
