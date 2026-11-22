@@ -17,6 +17,7 @@
     "grammar": "r.wasm",
     "highlightsQuery": "r-highlights.scm",
     "localsQuery": "r-locals.scm",
+    "tagsQuerySupportsLocalPath": true,
     "tagsQuery": "r-tags.scm",
     "injectionsQuery": "r-injections.scm",
     "indentsQuery": "r-indents.scm"
